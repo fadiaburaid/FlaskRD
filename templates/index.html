@@ -1,0 +1,29 @@
+<html>
+  <head>
+  </head>
+  <body>
+  <a>
+    <img onmousedown="doit()" src="{{ url_for('video_feed') }}">
+  </a>
+  <div id="content"></div>
+  </body>
+</html>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+function doit() {
+//var div = document.getElementById("content");
+var X = event.x + document.body.scrollLeft-7;
+var Y = event.y + document.body.scrollTop-7;
+//div.innerHTML += X;
+//div.innerHTML += ",";
+//div.innerHTML += Y;
+//div.innerHTML += "  ";
+$.ajax({
+	type:"POST",
+	url:"{{ url_for('action_page') }}",
+	contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+	data: {"xcoor":X, "ycoor":Y},
+    });
+}
+</script>
