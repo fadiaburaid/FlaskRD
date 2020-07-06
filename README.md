@@ -17,7 +17,7 @@ Afterthat, mouse clicks are captured using Javascript and passed to python as AJ
    ```
    python main.py
    ```
-2. Open `http://localhost/`  or in the your IP address in the same network.
+2. Open `http://localhost/`  or your IP address in the same network.
   
 
 ## Limitations
