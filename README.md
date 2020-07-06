@@ -1,5 +1,5 @@
 # FlaskRD
-Remote desktop control using Flask
+Remote desktop control using Flask, OpenCV and PyAutoGUI
 
 ## Requirements
 - [Flask](https://pypi.org/project/Flask/)
