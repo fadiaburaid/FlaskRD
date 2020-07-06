@@ -3,13 +3,7 @@ from PIL import ImageGrab
 import cv2
 
 
-class VideoScreen(object):
-    def __init__(self):
-        self.video = cv2.VideoCapture(0)
-    
-    def __del__(self):
-        self.video.release()
-    
+class VideoScreen(object): 
     def get_frame(self):
         screen =  np.array(ImageGrab.grab())
         image=cv2.cvtColor(screen, cv2.COLOR_BGR2RGB)
