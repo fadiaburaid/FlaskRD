@@ -25,7 +25,11 @@ Afterthat, mouse clicks are captured using Javascript and passed to python as AJ
 This program although functional was developed in few hours to prove that Python a powerful tool for web development.
 The availability of libraries allowed for the program to be short and minimal. 
 
-- The program uses alot of computer resources. 
+- The program uses alot of computer CPU resources. 
 - The frame rate is limited by the host computer processing power. 
-- The program can't differentiate between right and left clicks (This can be added to the Javascript and Python(PyAutoGUI) easily). 
-- The program can't detect keyboard presses (This can be added to the Javascript and Python(PyAutoGUI) easily).
+- The program can't:
+1.Differentiate between right and left clicks.
+2.Detect mouse wheel roll.
+3.Detect keyboard presses.
+(These can be added to the Javascript and Python(PyAutoGUI) easily). 
+
