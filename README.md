@@ -2,6 +2,7 @@
 Remote desktop control using Flask, OpenCV and PyAutoGUI
 
 ## Requirements
+- [Python 3](https://www.python.org/downloads/)
 - [Flask](https://pypi.org/project/Flask/)
 - [OpenCV](https://pypi.org/project/opencv-python/)
 - [Pillow](https://pypi.org/project/Pillow/2.2.2/)
