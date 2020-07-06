@@ -6,3 +6,17 @@ Remote desktop control using Flask
 - [OpenCV](https://pypi.org/project/opencv-python/)
 - [Pillow](https://pypi.org/project/Pillow/2.2.2/)
 - [PyAutoGUI](https://pypi.org/project/PyAutoGUI/)
+
+## Description
+The program uses OpenCV and Pillow to capture the screen frame. Then, the frame served using Flask web server.
+Afterthat, mouse clicks are captured using Javascript and passed to python as AJAX requests. Finally, PyAutoGUI simulates the mouse click.
+
+## Limitations
+
+This program although functional was developed in few hours to prove that Python a powerful tool for Web Development.
+The availability of libraries allowed for the program to be short and minimal. 
+
+- The program uses alot of computer resources. 
+- The frame rate is limited by the host computer processing power. 
+- The program can't differentiate between right and left clicks (This can be added to the Javascript and Python(PyAutoGUI) easily). 
+- The program can't detect keyboard presses (This can be added to the Javascript and Python(PyAutoGUI) easily).
