@@ -27,7 +27,8 @@ The availability of libraries allowed for the program to be short and minimal.
 
 - The program uses alot of computer CPU resources. 
 - The frame rate is limited by the host computer processing power. 
-- The program can't:
+- The program doesn't support these functionalities:
+
 1.Differentiate between right and left clicks.
 2.Detect mouse wheel roll.
 3.Detect keyboard presses.
