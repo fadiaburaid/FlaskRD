@@ -28,8 +28,8 @@ The availability of libraries allowed for the program to be short and minimal.
 - The program uses alot of computer CPU resources. 
 - The frame rate is limited by the host computer processing power. 
 - The program doesn't support these functionalities (These can be added to the Javascript and Python(PyAutoGUI) easily):
-1. Differentiate between right and left clicks.
-2. Detect mouse wheel roll.
-3. Detect keyboard presses.
+   1. Differentiate between right and left clicks.
+   2. Detect mouse wheel roll.
+   3. Detect keyboard presses.
 
 
