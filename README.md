@@ -22,7 +22,7 @@ Afterthat, mouse clicks are captured using Javascript and passed to python as AJ
 
 ## Limitations
 
-This program although functional was developed in few hours to prove that Python a powerful tool for web development.
+This program although functional was developed in few hours to prove that Python is a powerful tool for web development.
 The availability of libraries allowed for the program to be short and minimal. 
 
 - The program uses alot of computer CPU resources. 
